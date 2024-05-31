@@ -5,6 +5,7 @@ export const DESIGNATION = `Frontend Developer | Web Developer`;
 export const DETAILS = {
   Residence: "Nigeria",
   City: "Ilorin",
+  Tel: "+2348142418465"
 };
 
 export const SKILLS = [
@@ -31,23 +32,29 @@ export const SKILLS = [
 ];
 
 export const TECH_STACK = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
+  "Python",
+];
+
+export const LIBRARIES = [
   "ReactJS",
   "NextJS",
   "NodeJS",
   "Express",
   "Redux",
   "Tailwind CSS",
+];
+
+export const TOOLS = [
   "REST API",
-  // 'MongoDB',
-  // 'MySQL',
   "Git",
   "GitHub",
-  // 'Figma',
   "Adobe XD",
+  "Photoshop",
+  "CorelDraw",
+  "WordPress",
+
 ];
 
 export const CONTACTS = {

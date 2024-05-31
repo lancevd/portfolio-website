@@ -7,15 +7,13 @@ const Banner = () => {
     <BannerLayout>
       <div className="absolute inset-0 z-20 flex flex-col items-center py-8 justify-center w-full h-full bg-gradient-to-t from-[#2B2B36]">
         <div className="w-[100%] h-[90%] py-2 overflow-hidden flex md:block">
-          <div className="flex items-center md:items-center md:justify-around">
+          <div className="flex items-center px-4 lg:px-0 md:items-center md:justify-around">
             <div className="">
-              <div className="">
-                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">
-                  Hi, <br /> Welcome to my website.
-                </h1>
-              </div>
+              <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">
+                Hi, <br /> Welcome to my website.
+              </h1>
               <div className="my-3">
-                <code className=" py-4 font-courier text-Snow pb-4 h-20 lg:h-auto">
+                <code className=" py-4 font-courier text-Snow text-sm lg:text-base pb-4 h-20 lg:h-auto">
                   <span>
                     {"<"}
                     <span className="text-[#5CB4F0] font-bold">code</span>

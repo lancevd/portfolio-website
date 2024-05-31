@@ -1,15 +1,15 @@
 import Badge from "../Badge";
-import { TOOLS } from "../../../constants/constants";
-const Tools = () => {
+import { LIBRARIES } from "../../../constants/constants";
+const Libraries = () => {
   return (
     <div className="flex flex-col space-y-1 pt-6">
       <div className="flex flex-col gap-y-4">
         <span className="text-Snow text-xs font-bold">
-          Other Tools
+          Libraries and Frameworks
         </span>
         <div className="flex flex-wrap gap-2">
           <ul className="text-LightGray text-sm list-image-custom-mark">
-            {TOOLS.map((item, index) => (
+            {LIBRARIES.map((item, index) => (
               <li
                 key={index}
                 className=" list-inside"
@@ -32,4 +32,4 @@ const Tools = () => {
   );
 };
 
-export default Tools;
+export default Libraries;
