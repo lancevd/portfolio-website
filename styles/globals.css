@@ -109,7 +109,7 @@ body {
   }
   /* antd css */
   .ant-progress-text{
-    color:white !important
+    color:white !important;
   }
   .ant-modal .ant-modal-content{
     display: flex;
@@ -120,7 +120,7 @@ body {
     height: 200px;
   }
   .boxShodow:hover{
-    box-shadow: rgba(31,223,100,1) 0px 2px 5px -1px, rgba(31,223,100,1) 0px 1px 3px -1px;
+    box-shadow: rgba(92,180,240,1) 0px 2px 5px -1px, rgba(92,180,240,1) 0px 1px 3px -1px;
     /* -webkit-box-shadow: 0px 0px 11px -3px rgba(31,223,100,1);
     -moz-box-shadow: 0px 0px 11px -3px rgba(31,223,100,1);
     box-shadow: 0px 0px 11px -3px rgba(31,223,100,1); */
@@ -129,11 +129,11 @@ body {
 
 
 .userIcon:focus-within #icon {
-  color: #1fdf64; /* Change the icon color when the input is focused */
+  color: #5CB4F0; /* Change the icon color when the input is focused */
 }
 .mailIcon:focus-within #icon {
-  color: #1fdf64; /* Change the icon color when the input is focused */
+  color: #5CB4F0; /* Change the icon color when the input is focused */
 }
 .textIcon:focus-within #icon {
-  color: #1fdf64; /* Change the icon color when the input is focused */
+  color: #5CB4F0; /* Change the icon color when the input is focused */
 }
