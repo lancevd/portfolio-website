@@ -32,15 +32,15 @@ const Nav = ({ setIsOpen, isOpen }) => {
             />
             <NavItem
               setIsOpen={setIsOpen}
-              NavRoute={"/contact"}
-              NavIcon={<FaHandshake />}
-              NavText={"Contact"}
+              NavRoute={"/experience"}
+              NavIcon={<HiIdentification />}
+              NavText={"Experience"}
             />
             <NavItem
               setIsOpen={setIsOpen}
-              NavRoute={"/background"}
-              NavIcon={<HiIdentification />}
-              NavText={"Background"}
+              NavRoute={"/contact"}
+              NavIcon={<FaHandshake />}
+              NavText={"Contact"}
             />
           </div>
         </div>
