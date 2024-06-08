@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
       >
         <div className="text-white text-center">
           <h3 className="text-lg font-semibold">{project.name}</h3>
-          <p className="text-sm p-4"> {project.description}</p>
+          <p className="text-xs lg:text-sm p-4"> {project.description}</p>
           <a href={project.link} target="_blank" className="underline">
             View Project
           </a>
