@@ -6,10 +6,10 @@ import BannerLayout from "../components/Common/BannerLayout";
 let projects = [
   {
     name: "KedvisMart",
-    image: "/images/chatter.png",
+    image: "/images/kedvismart.png",
     description:
       "KedvisMart is an AI-assited ecommerce platform, where you can perform operations with voice commands to make accessibility easier",
-    link: "/project1",
+    link: "https://kedvismart.vercel.app/",
     category: "frontend development",
   },
   {
@@ -17,7 +17,7 @@ let projects = [
     image: "/images/chatter.png",
     description:
       "Chatter is a mini blogging app, where you can create contents, interacts with posts, drop comments, and meet new people",
-    link: "/project1",
+    link: "https://chatter-winner.vercel.app/",
     category: "frontend development",
   },
 
@@ -26,7 +26,7 @@ let projects = [
     image: "/images/movrent.png",
     description:
       "Movrent is the place for movies enthusiasts, where they can check upcoming and latest movies, read plots, and view trailers",
-    link: "/project2",
+    link: "https://movie-app-one-tau.vercel.app/",
     category: "frontend development",
   },
   {
@@ -34,20 +34,20 @@ let projects = [
     image: "/images/ticketbay.png",
     description:
       "Ticketbay is a major ticketing platform in Nigeria. Organizers can create events, sell tickets, promote their events, and manage events.",
-    link: "/project3",
+    link: "https://ticketbay.com.ng",
     category: "Websites",
   },
   {
     name: "Vue Github",
     image: "/images/vue-github.png",
     description: "Search for git hub profiles and display their repositories!",
-    link: "/project4",
+    link: "https://github-project-vue.vercel.app/",
     category: "frontend development",
   },
   // Add
 ];
 
-const categories = ["ALL", "WEBSITES", "FRONTEND DEVELOPMENT"];
+const categories = ["ALL", "FRONTEND DEVELOPMENT", "WEBSITES"];
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("ALL");
