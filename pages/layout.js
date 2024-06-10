@@ -6,16 +6,6 @@ import { SlOptionsVertical } from "react-icons/sl";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-export const metadata = {
-  title: "Olamide Mosoobalaje",
-  description:
-    "Olamide Mosobalaje, an experienced Frontend Developer based in Nigeria",
-  author: "Olamide Winner Mosobalaje",
-  keywords:
-    "Frontend Developer, frontend engineer, african frontend developer, african frontend engineer, frontend developer in nigeria",
-  favicon: "/favicon.png",
-};
-
 export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   const [intro, setIntro] = useState(false);
