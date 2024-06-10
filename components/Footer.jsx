@@ -15,10 +15,10 @@ const Footer = () => {
               <MdMail />
             </div>
             <a
-              href="mailto:winnermosob@gmail.com"
+              href="mailto:olamosob@gmail.com"
               className="hover:text-[#f3efef]"
             >
-              winnermosob@gmail.com
+              olamosob@gmail.com
             </a>
           </div>
         </div>

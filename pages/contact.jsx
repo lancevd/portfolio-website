@@ -99,12 +99,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
-          <a
-            className="hover:scale-125 ease-in-out duration-700"
-            href=""
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="mailto:olamosb@gmail.com" target="_blank">
             <HiMail />
           </a>
           <a
