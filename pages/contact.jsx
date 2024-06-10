@@ -24,7 +24,12 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData, "YOUR_USER_ID")
+      .send(
+        "service_xdd9gp7",
+        "template_2u22pwo",
+        formData,
+        "YBhun3983PjUPijxy"
+      )
       .then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
@@ -32,7 +37,7 @@ const Contact = () => {
         },
         (error) => {
           console.log("FAILED...", error);
-          alert("Error sending message. Please try again later.")
+          alert("Error sending message. Please try again later.");
         }
       );
 
