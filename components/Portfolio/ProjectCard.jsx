@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
           hover ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className="text-white text-center">
+        <div className="text-white text-center py-2">
           <h3 className="text-lg font-semibold">{project.name}</h3>
           <p className="text-xs lg:text-sm p-4"> {project.description}</p>
           {project.skills.map((skill, index) => {
