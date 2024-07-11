@@ -22,6 +22,11 @@ const ProjectCard = ({ project }) => {
         <div className="text-white text-center">
           <h3 className="text-lg font-semibold">{project.name}</h3>
           <p className="text-xs lg:text-sm p-4"> {project.description}</p>
+          {project.skills.map((skill, index) => {
+            return <span key={index} className="text-xs lg:text-sm p-2 bg-gray-700 mx-1 my-1">{skill}</span>;
+          })}
+          <br />
+          <br />
           <a href={project.link} target="_blank" className="underline">
             View Project
           </a>
