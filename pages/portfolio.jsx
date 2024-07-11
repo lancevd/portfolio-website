@@ -6,9 +6,9 @@ import BannerLayout from "../components/Common/BannerLayout";
 let projects = [
   {
     name: "Designer's Portfolio",
-    image: "/images/kedvismart.png",
+    image: "/images/emmy.png",
     description:
-      "This project is the portfolio website of an experienced product desiger. It showcases a perfect designer's portfolio",
+      "A porfolio website for a senior product designer.",
     link: "https://emmanuel-designs.vercel.app/",
     category: "frontend development",
     skills: ["JavaScript", "React", "Next.js"]
@@ -47,7 +47,7 @@ let projects = [
     description:
       "Ticketbay is a major ticketing platform in Nigeria. Organizers can create events, sell tickets, promote their events, and manage events.",
     link: "https://ticketbay.com.ng",
-    category: "Websites",
+    category: "fullstack",
     skills: ["JavaScript", "WordPress", "PHP", "MySQL"]
   },
   {
