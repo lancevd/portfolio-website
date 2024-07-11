@@ -5,12 +5,22 @@ import BannerLayout from "../components/Common/BannerLayout";
 
 let projects = [
   {
+    name: "Designer's Portfolio",
+    image: "/images/kedvismart.png",
+    description:
+      "This project is the portfolio website of an experienced product desiger. It showcases a perfect designer's portfolio",
+    link: "https://emmanuel-designs.vercel.app/",
+    category: "frontend development",
+    skills: ["JavaScript", "React", "Next.js"]
+  },
+  {
     name: "KedvisMart",
     image: "/images/kedvismart.png",
     description:
       "KedvisMart is an AI-assited ecommerce platform, where you can perform operations with voice commands to make accessibility easier",
     link: "https://kedvismart.vercel.app/",
     category: "frontend development",
+    skills: ["JavaScript", "React", "Next.js", "REST API", "AI"]
   },
   {
     name: "Chatter App",
@@ -19,6 +29,7 @@ let projects = [
       "Chatter is a mini blogging app, where you can create contents, interacts with posts, drop comments, and meet new people",
     link: "https://chatter-winner.vercel.app/",
     category: "frontend development",
+    skills: ["JavaScript", "React", "Firebase"]
   },
 
   {
@@ -28,6 +39,7 @@ let projects = [
       "Movrent is the place for movies enthusiasts, where they can check upcoming and latest movies, read plots, and view trailers",
     link: "https://movie-app-one-tau.vercel.app/",
     category: "frontend development",
+    skills: ["JavaScript", "React", "Tailwind CSS"]
   },
   {
     name: "Ticketbay",
@@ -36,6 +48,7 @@ let projects = [
       "Ticketbay is a major ticketing platform in Nigeria. Organizers can create events, sell tickets, promote their events, and manage events.",
     link: "https://ticketbay.com.ng",
     category: "Websites",
+    skills: ["JavaScript", "WordPress", "PHP", "MySQL"]
   },
   {
     name: "Vue Github",
@@ -43,11 +56,12 @@ let projects = [
     description: "Search for git hub profiles and display their repositories!",
     link: "https://github-project-vue.vercel.app/",
     category: "frontend development",
+    skills: ["JavaScript", "Vue"]
   },
   // Add
 ];
 
-const categories = ["ALL", "FRONTEND DEVELOPMENT", "WEBSITES"];
+const categories = ["ALL", "FRONTEND DEVELOPMENT", "FULLSTACK"];
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("ALL");
