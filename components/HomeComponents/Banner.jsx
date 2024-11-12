@@ -63,7 +63,7 @@ const Banner = () => {
             <span className="text-base md:text-lg text-[var(--blue-color)] font-bold">
               3+
             </span>
-            <span className="text-xs text-Snow">Years Frontend Experience</span>
+            <span className="text-xs text-Snow">Years Experience</span>
           </div>
 
           <div className="flex items-center gap-x-3">
@@ -77,7 +77,7 @@ const Banner = () => {
             <span className="text-base md:text-lg text-[var(--blue-color)] font-bold">
               10+
             </span>
-            <span className="text-xs text-Snow">Frontend Projects</span>
+            <span className="text-xs text-Snow">Projects</span>
           </div>
 
           <div className="flex items-center gap-x-3">

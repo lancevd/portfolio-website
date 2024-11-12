@@ -1,6 +1,6 @@
 export const NAME = "Olamide Winner Mosobalaje";
 
-export const DESIGNATION = `Frontend Developer | Web Developer`;
+export const DESIGNATION = `Software Developer`;
 
 export const DETAILS = {
   Residence: "Nigeria",
@@ -41,9 +41,10 @@ export const LIBRARIES = [
   "ReactJS",
   "NextJS",
   "NodeJS",
-  "Express",
+  "ExpressJS",
   "Redux",
   "Tailwind CSS",
+  "Bootstrap",
 ];
 
 export const TOOLS = [
