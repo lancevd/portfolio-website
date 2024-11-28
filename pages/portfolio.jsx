@@ -5,13 +5,21 @@ import BannerLayout from "../components/Common/BannerLayout";
 
 let projects = [
   {
+    name: "Lost and Found",
+    image: "/images/lost-n-found.png",
+    description:
+      "Lost N Found is a community for University students to connect with other students and recover missing items.",
+    link: "https://lost-and-found-five.vercel.app",
+    category: "fullstack",
+    skills: ["JavaScript", "TypeScript", "Next.js", "Express.js", "Node.js", "MongoDB"],
+  },
+  {
     name: "Designer's Portfolio",
     image: "/images/emmy.png",
-    description:
-      "A porfolio website for a senior product designer.",
+    description: "A porfolio website for a senior product designer.",
     link: "https://emmanuel-designs.vercel.app/",
     category: "frontend development",
-    skills: ["JavaScript", "React", "Next.js"]
+    skills: ["JavaScript", "TypeScript", "Next.js"],
   },
   {
     name: "KedvisMart",
@@ -20,7 +28,7 @@ let projects = [
       "KedvisMart is an AI-assited ecommerce platform, where you can perform operations with voice commands to make accessibility easier",
     link: "https://kedvismart.vercel.app/",
     category: "frontend development",
-    skills: ["JavaScript", "React", "Next.js", "REST API", "AI"]
+    skills: ["JavaScript", "React", "Next.js", "REST API", "AI"],
   },
   {
     name: "Chatter App",
@@ -28,8 +36,8 @@ let projects = [
     description:
       "Chatter is a mini blogging app, where you can create contents, interacts with posts, drop comments, and meet new people",
     link: "https://chatter-winner.vercel.app/",
-    category: "frontend development",
-    skills: ["JavaScript", "React", "Firebase"]
+    category: "fullstack",
+    skills: ["TypeScript", "React", "Firebase"],
   },
 
   {
@@ -39,7 +47,7 @@ let projects = [
       "Movrent is the place for movies enthusiasts, where they can check upcoming and latest movies, read plots, and view trailers",
     link: "https://movie-app-one-tau.vercel.app/",
     category: "frontend development",
-    skills: ["JavaScript", "React", "Tailwind CSS"]
+    skills: ["JavaScript", "React", "Tailwind CSS"],
   },
   {
     name: "Ticketbay",
@@ -48,7 +56,7 @@ let projects = [
       "Ticketbay is a major ticketing platform in Nigeria. Organizers can create events, sell tickets, promote their events, and manage events.",
     link: "https://ticketbay.com.ng",
     category: "fullstack",
-    skills: ["JavaScript", "WordPress", "PHP", "MySQL"]
+    skills: ["JavaScript", "WordPress", "PHP", "MySQL"],
   },
   {
     name: "Vue Github",
@@ -56,7 +64,7 @@ let projects = [
     description: "Search for git hub profiles and display their repositories!",
     link: "https://github-project-vue.vercel.app/",
     category: "frontend development",
-    skills: ["JavaScript", "Vue"]
+    skills: ["JavaScript", "Vue"],
   },
   // Add
 ];
