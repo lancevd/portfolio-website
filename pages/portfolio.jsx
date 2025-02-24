@@ -22,6 +22,15 @@ let projects = [
     skills: ["JavaScript", "TypeScript", "Next.js"],
   },
   {
+    name: "Eventer",
+    image: "/images/eventer.png",
+    description:
+      "Eventer is an event management platform where you can create events, and manage them",
+    link: "https://eventer-2024.vercel.app",
+    category: "fullstack",
+    skills: ["JavaScript", "React", "Express.js", "Node.js", "MongoDB"],
+  },
+  {
     name: "KedvisMart",
     image: "/images/kedvismart.png",
     description:
