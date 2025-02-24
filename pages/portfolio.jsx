@@ -39,7 +39,15 @@ let projects = [
     category: "fullstack",
     skills: ["TypeScript", "React", "Firebase"],
   },
-
+  {
+    name: "Youtube Clone",
+    image: "/images/youtube.png",
+    description:
+      "A youtube clone where you can search for videos, watch them, and read comments",
+    link: "https://youtube-clone-lancevd.vercel.app",
+    category: "frontend development",
+    skills: ["JavaScript", "React", "Bootstrap"],
+  },
   {
     name: "MovRent",
     image: "/images/movrent.png",
@@ -48,15 +56,6 @@ let projects = [
     link: "https://movie-app-one-tau.vercel.app/",
     category: "frontend development",
     skills: ["JavaScript", "React", "Tailwind CSS"],
-  },
-  {
-    name: "Ticketbay",
-    image: "/images/ticketbay.png",
-    description:
-      "Ticketbay is a major ticketing platform in Nigeria. Organizers can create events, sell tickets, promote their events, and manage events.",
-    link: "https://ticketbay.com.ng",
-    category: "fullstack",
-    skills: ["JavaScript", "WordPress", "PHP", "MySQL"],
   },
   {
     name: "Vue Github",
