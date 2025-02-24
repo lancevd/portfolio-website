@@ -5,13 +5,13 @@ import BannerLayout from "../components/Common/BannerLayout";
 
 let projects = [
   {
-    name: "Lost and Found",
-    image: "/images/lost-n-found.png",
+    name: "ChatYa",
+    image: "/images/chatya.png",
     description:
-      "Lost N Found is a community for University students to connect with other students and recover missing items.",
-    link: "https://lost-and-found-five.vercel.app",
+      "ChatYa is a fullstack chat application where you can chat with friends.",
+    link: "https://chatya.vercel.app/",
     category: "fullstack",
-    skills: ["JavaScript", "TypeScript", "Next.js", "Express.js", "Node.js", "MongoDB"],
+    skills: ["JavsScript", "React", "Node.js", "MongoDB", "Socket.io"],
   },
   {
     name: "Designer's Portfolio",
