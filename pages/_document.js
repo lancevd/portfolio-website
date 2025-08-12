@@ -16,7 +16,6 @@ export default function Document() {
   gtag('js', new Date());
 
   gtag('config', 'G-YVG4XD22XX');
-
 `,
         }}
       ></script>
